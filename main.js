@@ -24,5 +24,6 @@ hamburger.click( function() {
 closeSidebar.click( function() {
 
     sidebar.fadeOut();
+    
  
  } );
