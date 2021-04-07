@@ -52,7 +52,7 @@ header {
 .hamburger-menu {
     position: absolute;
     top: 0;
-    right: 0;
+    right: -200px;
     display: none;
     padding: 20px;
     width: 100%;
@@ -61,7 +61,21 @@ header {
     max-width: 280px;
     min-height: 100vh;
     background: #2B3F58;
+    animation: sidebar forwards 1s;
 }
+
+
+@keyframes sidebar {
+    from{
+        right: -200px;
+    }
+
+    to{
+        right: 0px;
+    }
+}
+
+
 .hamburger-menu ul {
     display: flex;
     height: 100%;
