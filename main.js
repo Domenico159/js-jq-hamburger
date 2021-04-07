@@ -25,5 +25,10 @@ closeSidebar.click( function() {
 
     sidebar.fadeOut();
     
+    sidebar.css('animation: sidebar-out 1s')
+
  
  } );
+
+
+   

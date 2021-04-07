@@ -76,7 +76,6 @@ header {
 }
 
 
-
 .hamburger-menu ul {
     display: flex;
     height: 100%;
@@ -116,5 +115,11 @@ header {
 
     .hamburger-menu.active {
         display: block;
+    }
+}
+
+@media screen and (min-width: 1001px){
+    .hamburger-menu{
+        display: none  !important;
     }
 }
